@@ -29,7 +29,7 @@ const AddAlbum = (props) => {
             <input id='aaform-title-inp' type="text" />
           </div>
           <div>
-            <Link to="/"><button onClick={getAlbumFormData}>Add To List</button></Link>
+            <Link to="/albums-list"><button onClick={getAlbumFormData}>Add To List</button></Link>
           </div>
         </div>
       </div>
